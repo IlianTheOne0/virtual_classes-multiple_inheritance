@@ -10,5 +10,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Core\Logger\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\View\Intro\intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation\Tests\Tests\exampleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib.h" />
+    <ClInclude Include="cfg.h" />
+    <ClInclude Include="Core\core.h" />
+    <ClInclude Include="Core\Logger\logger.h" />
+    <ClInclude Include="Domain\domain.h" />
+    <ClInclude Include="Presentation\presentation.h" />
+    <ClInclude Include="Presentation\View\view.h" />
+    <ClInclude Include="Presentation\Tests\test.h" />
   </ItemGroup>
 </Project>
