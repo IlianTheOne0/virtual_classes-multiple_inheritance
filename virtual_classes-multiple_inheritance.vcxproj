@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="Core\Logger\logger.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Presentation\Tests\Tests\exampleTest.cpp" />
     <ClCompile Include="Presentation\View\Intro\intro.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -137,9 +136,11 @@
     <ClInclude Include="Core\core.h" />
     <ClInclude Include="Core\Logger\logger.h" />
     <ClInclude Include="Domain\domain.h" />
+    <ClInclude Include="Domain\Entities\Base\base.h" />
+    <ClInclude Include="Domain\Entities\Child2\child2.h" />
+    <ClInclude Include="Domain\Entities\Child\child.h" />
     <ClInclude Include="lib.h" />
     <ClInclude Include="Presentation\presentation.h" />
-    <ClInclude Include="Presentation\Tests\test.h" />
     <ClInclude Include="Presentation\View\view.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

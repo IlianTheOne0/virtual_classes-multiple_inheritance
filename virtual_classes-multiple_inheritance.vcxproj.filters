@@ -16,9 +16,6 @@
     <ClCompile Include="Presentation\View\Intro\intro.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Presentation\Tests\Tests\exampleTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib.h" />
@@ -28,6 +25,8 @@
     <ClInclude Include="Domain\domain.h" />
     <ClInclude Include="Presentation\presentation.h" />
     <ClInclude Include="Presentation\View\view.h" />
-    <ClInclude Include="Presentation\Tests\test.h" />
+    <ClInclude Include="Domain\Entities\Base\base.h" />
+    <ClInclude Include="Domain\Entities\Child\child.h" />
+    <ClInclude Include="Domain\Entities\Child2\child2.h" />
   </ItemGroup>
 </Project>
